@@ -12,7 +12,9 @@
         <scale android:scaleWidth="100%">
             <shape android:shape="rectangle">
                 <solid android:color="@color/fun_green" />
-                <corners android:radius="@dimen/normal_margin" />
+                <corners
+                    android:topLeftRadius="@dimen/normal_margin"
+                    android:bottomLeftRadius="@dimen/normal_margin"/>
             </shape>
         </scale>
     </item>
